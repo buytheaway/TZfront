@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-form]').forEach(form=>form.addEventListener('submit',event=>{event.preventDefault();form.parentElement.querySelector('.status').textContent='Спасибо! Заявка принята.';form.reset()}));
