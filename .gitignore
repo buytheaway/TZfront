@@ -1,0 +1,4 @@
+# Figma export references are for local visual comparison only.
+# The implementation needs the standalone 259A7440 photo asset.
+design-assets/*
+!design-assets/259A7440.png
